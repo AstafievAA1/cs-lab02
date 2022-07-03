@@ -7,8 +7,9 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    std::cout << "Enter A and B: ";
+    int a, b;
+    std::cin >> a >> b;
 }
