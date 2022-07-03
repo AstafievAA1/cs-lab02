@@ -15,5 +15,6 @@ int main()
     std::cout << "A + B = " << a + b << '\n'
               << "A - B = " << a - b << '\n'
               << "A * B = " << a * b << '\n'
-              << "A / B = " << a / b << '\n';
+              << "A / B = " << a / b << '\n'
+              << " max = " << std::max(a, b) << '\n';
 }
